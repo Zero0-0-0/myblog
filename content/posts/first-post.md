@@ -3,6 +3,11 @@ date = '2026-03-05T20:14:43+08:00'
 draft = false
 title = 'First Post'
 
+
+
+tags = ["first-post","introduction"]
+categories = ["blog"]
+
 +++
 
 # 一切的开始
