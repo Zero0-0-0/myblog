@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Introduction on My Blog</title><link>https://Zero0-0-0.github.io/myblog/tags/introduction/</link><description>Recent content in Introduction on My Blog</description><generator>Hugo -- 0.157.0</generator><language>en-us</language><lastBuildDate>Sat, 07 Mar 2026 09:51:12 +0800</lastBuildDate><atom:link href="https://Zero0-0-0.github.io/myblog/tags/introduction/index.xml" rel="self" type="application/rss+xml"/><item><title>建站笔记</title><link>https://Zero0-0-0.github.io/myblog/posts/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</link><pubDate>Sat, 07 Mar 2026 09:51:12 +0800</pubDate><guid>https://Zero0-0-0.github.io/myblog/posts/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;这里是在创建Blog过程中GPT给出的一些网站优化建议，主要是关于Blog应该/通常具有的功能&lt;/p&gt;
+&lt;p&gt;现在我写的东西还太少，希望等这个网站真的能算是有东西了再一一完善&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="规范"&gt;规范&lt;/h1&gt;
+&lt;h2 id="url结构"&gt;URL结构&lt;/h2&gt;
+&lt;h2 id="内容分类体系"&gt;内容分类体系&lt;/h2&gt;
+&lt;h2 id="文件结构清晰干净"&gt;文件结构清晰干净&lt;/h2&gt;
+&lt;h2 id="每篇文章都要有metadata"&gt;每篇文章都要有metadata&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;每一篇都加上&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tags=[]&lt;/p&gt;
+&lt;p&gt;categories=[]&lt;/p&gt;
+&lt;p&gt;养成习惯，便于：&lt;/p&gt;
+&lt;p&gt;自动生成归档&lt;/p&gt;
+&lt;p&gt;按标签筛选&lt;/p&gt;
+&lt;p&gt;做 RSS&lt;/p&gt;
+&lt;p&gt;搜索文章&lt;/p&gt;
+&lt;h2 id="图片管理"&gt;图片管理&lt;/h2&gt;
+&lt;p&gt;建议结构：&lt;/p&gt;
+&lt;p&gt;content/posts/my-post/
+index.md
+image1.png&lt;/p&gt;
+&lt;p&gt;而不是static/images/random123.png&lt;/p&gt;
+&lt;p&gt;文章和图片放一起&lt;/p&gt;
+&lt;h2 id="git提交习惯"&gt;Git提交习惯&lt;/h2&gt;
+&lt;p&gt;一篇文章一个commit，回溯历史的时候比较清晰&lt;/p&gt;
+&lt;p&gt;post: add xxx article
+edit: update xxx article
+style: change font size
+config: update hugo config&lt;/p&gt;
+&lt;h1 id="功能"&gt;功能&lt;/h1&gt;
+&lt;h2 id="主题"&gt;主题&lt;/h2&gt;
+&lt;h2 id="评论系统"&gt;评论系统&lt;/h2&gt;
+&lt;h2 id="seo"&gt;SEO&lt;/h2&gt;
+&lt;p&gt;Search Engine Optimization 搜索引擎优化&lt;/p&gt;
+&lt;h2 id="访问统计"&gt;访问统计&lt;/h2&gt;
+&lt;h2 id="搜索"&gt;搜索&lt;/h2&gt;
+&lt;h2 id="目录"&gt;目录&lt;/h2&gt;
+&lt;h2 id="内容分类"&gt;内容分类&lt;/h2&gt;
+&lt;h2 id="动画"&gt;动画&lt;/h2&gt;
+&lt;h2 id="域名"&gt;域名&lt;/h2&gt;</description></item><item><title>First Post</title><link>https://Zero0-0-0.github.io/myblog/posts/first-post/</link><pubDate>Thu, 05 Mar 2026 20:14:43 +0800</pubDate><guid>https://Zero0-0-0.github.io/myblog/posts/first-post/</guid><description>&lt;h1 id="一切的开始"&gt;一切的开始&lt;/h1&gt;
+&lt;p&gt;这是我第一篇真正意义上的Blog吧，我真的很兴奋！第一篇比较简陋，请见谅。&lt;/p&gt;
+&lt;p&gt;最最开始是因为学代码的时候很多老师建议发学习博客，所以我去ai了一下建议。那是我第一次看到Hugo和Hexo，但是当时我被建议从简单的、更容易获得互动的平台上发表博客，并且我自己也觉得创建自己的网站一定非常复杂，离我还很遥远，所以并没有去关注和尝试，只是简单地在一些平台上发了学习内容。&lt;/p&gt;
+&lt;p&gt;我本来就不是一个能够持之以恒的人，加上很快那一阵就有些事情，我很快放弃了写博客，并且渐渐地淡忘了这件事。&lt;/p&gt;
+&lt;p&gt;直到最近开始整理和ai的对话，想要看一看这几个月我到底想了、问了和学了什么，才重新发现了Hexo和Hugo，意识到使用它们并不需要掌握编程语言。我最近非常想找个地方以图文的形式记录、发表一些东西（主要是不会做视频，只能写了），小红书是合适的，但是如果我想要综合不同的东西，直接贴链接很容易被判为引流（也已经被判过引流），几乎准备用QQ空间了。所以&lt;strong&gt;Hugo&lt;/strong&gt;和&lt;strong&gt;Hexo&lt;/strong&gt;的出现让我非常兴奋，“天哪，我真是太蠢了，现在才想起它们来”，尝试的欲望达到了顶峰，然后我就这么开始了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我终于有自己的网站了！我爱你！！！&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

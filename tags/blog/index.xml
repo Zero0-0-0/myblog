@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blog on My Blog</title><link>https://Zero0-0-0.github.io/myblog/tags/blog/</link><description>Recent content in Blog on My Blog</description><generator>Hugo -- 0.157.0</generator><language>en-us</language><lastBuildDate>Sat, 07 Mar 2026 09:51:12 +0800</lastBuildDate><atom:link href="https://Zero0-0-0.github.io/myblog/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>建站笔记</title><link>https://Zero0-0-0.github.io/myblog/posts/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</link><pubDate>Sat, 07 Mar 2026 09:51:12 +0800</pubDate><guid>https://Zero0-0-0.github.io/myblog/posts/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;这里是在创建Blog过程中GPT给出的一些网站优化建议，主要是关于Blog应该/通常具有的功能&lt;/p&gt;
+&lt;p&gt;现在我写的东西还太少，希望等这个网站真的能算是有东西了再一一完善&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="规范"&gt;规范&lt;/h1&gt;
+&lt;h2 id="url结构"&gt;URL结构&lt;/h2&gt;
+&lt;h2 id="内容分类体系"&gt;内容分类体系&lt;/h2&gt;
+&lt;h2 id="文件结构清晰干净"&gt;文件结构清晰干净&lt;/h2&gt;
+&lt;h2 id="每篇文章都要有metadata"&gt;每篇文章都要有metadata&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;每一篇都加上&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;tags=[]&lt;/p&gt;
+&lt;p&gt;categories=[]&lt;/p&gt;
+&lt;p&gt;养成习惯，便于：&lt;/p&gt;
+&lt;p&gt;自动生成归档&lt;/p&gt;
+&lt;p&gt;按标签筛选&lt;/p&gt;
+&lt;p&gt;做 RSS&lt;/p&gt;
+&lt;p&gt;搜索文章&lt;/p&gt;
+&lt;h2 id="图片管理"&gt;图片管理&lt;/h2&gt;
+&lt;p&gt;建议结构：&lt;/p&gt;
+&lt;p&gt;content/posts/my-post/
+index.md
+image1.png&lt;/p&gt;
+&lt;p&gt;而不是static/images/random123.png&lt;/p&gt;
+&lt;p&gt;文章和图片放一起&lt;/p&gt;
+&lt;h2 id="git提交习惯"&gt;Git提交习惯&lt;/h2&gt;
+&lt;p&gt;一篇文章一个commit，回溯历史的时候比较清晰&lt;/p&gt;
+&lt;p&gt;post: add xxx article
+edit: update xxx article
+style: change font size
+config: update hugo config&lt;/p&gt;
+&lt;h1 id="功能"&gt;功能&lt;/h1&gt;
+&lt;h2 id="主题"&gt;主题&lt;/h2&gt;
+&lt;h2 id="评论系统"&gt;评论系统&lt;/h2&gt;
+&lt;h2 id="seo"&gt;SEO&lt;/h2&gt;
+&lt;p&gt;Search Engine Optimization 搜索引擎优化&lt;/p&gt;
+&lt;h2 id="访问统计"&gt;访问统计&lt;/h2&gt;
+&lt;h2 id="搜索"&gt;搜索&lt;/h2&gt;
+&lt;h2 id="目录"&gt;目录&lt;/h2&gt;
+&lt;h2 id="内容分类"&gt;内容分类&lt;/h2&gt;
+&lt;h2 id="动画"&gt;动画&lt;/h2&gt;
+&lt;h2 id="域名"&gt;域名&lt;/h2&gt;</description></item></channel></rss>
