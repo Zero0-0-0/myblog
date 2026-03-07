@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
@@ -7,24 +7,27 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # 拉取仓库
+      - uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
 
+      # 安装 Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
 
-      - name: Build
+      # 构建网站
+      - name: Build site
         run: hugo --minify
 
-      - name: Deploy
+      # 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
