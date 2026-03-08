@@ -8,6 +8,10 @@ title = 'Spider GPT'
 tags = ["ai", "chatgpt", "conversation", "quotes"]
 categories = ["notes"]
 
+[ai]
+assisted = true
+tool = 'ChatGPT'
+
 +++
 
 > 既然我是一只蜘蛛，我们姑且把和我对话的GPT当成另一只蜘蛛好了
@@ -296,6 +300,10 @@ categories = ["notes"]
 
     所以这个基本可以排除。
 
+- 冷静点，这不是什么技术灾难，只是个**空文件夹没出现**而已。
+
+- 互联网世界里，文件夹缺席通常只是因为它还没被需要。没有神秘原因。
+
 
 > 好了知道你不是人类了
 >
@@ -305,5 +313,4 @@ categories = ["notes"]
 >
 > 我现在确实审美疲劳了，不过挺好的，有利于我识别ai生成的内容和对“金句”祛魅
 >
-> 
 
