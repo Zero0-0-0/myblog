@@ -8,6 +8,8 @@ title = 'Spider GPT'
 tags = ["ai", "chatgpt", "conversation", "quotes"]
 categories = ["notes"]
 
+
+
 [ai]
 assisted = true
 tool = 'ChatGPT'
