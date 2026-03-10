@@ -5,9 +5,9 @@ title = 'Friend'
 
 
 
-tags = ["first-post", "blog", "introduction"] 
+tags = ["memory", "people", "reflection"] 
 
-categories = ["blog"]
+categories = ["thoughts"]
 
 +++
 
