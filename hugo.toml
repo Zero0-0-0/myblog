@@ -3,5 +3,12 @@ languageCode = 'en-us'
 title = 'My Blog'
 theme = "PaperMod"
 
+enableEmoji = true
+
 [params]
 author = "Zero"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
